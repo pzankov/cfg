@@ -7,6 +7,8 @@ set softtabstop=2
 set smarttab
 set expandtab
 
+set ruler
+
 " remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
