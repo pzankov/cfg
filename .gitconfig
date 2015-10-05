@@ -1,0 +1,5 @@
+[user]
+	email = peter@cyberhaven.io
+	name = Petr Zankov
+[push]
+	default = simple
