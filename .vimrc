@@ -9,6 +9,9 @@ set expandtab
 
 set ruler
 
+" do not open files readonly in vimdiff
+set noro
+
 " remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
