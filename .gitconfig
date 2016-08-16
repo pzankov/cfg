@@ -1,8 +1,8 @@
 [user]
-	email = peter@cyberhaven.io
-	name = Petr Zankov
+  email = peter@cyberhaven.io
+  name = Petr Zankov
 [push]
-	default = simple
+  default = simple
 [diff]
   tool = vimdiff
 [difftool]
