@@ -21,6 +21,6 @@ au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g'
 map QQ :qa!<CR>
 
 " customize JEDI
-let g:jedi#show_function_definition = 0
+let g:jedi#show_call_signatures = 0
 autocmd FileType python setlocal completeopt-=preview
 
